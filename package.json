@@ -1,0 +1,39 @@
+{
+  "name": "msi-wix",
+  "version": "1.0.0",
+  "description": "wix msi",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monica-muthukumaran/msiWix.git"
+  },
+  "author": "monica",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/monica-muthukumaran/msiWix/issues"
+  },
+  "build": {
+    "publish": [
+      {
+        "provider": "github",
+        "host": "https://github.com/",
+        "owner": "monica-muthukumaran",
+        "repo": "msiWix",
+        "token": "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"
+      }
+    ]
+  },
+  "devDependencies": {
+    "electron": "^16.0.8",
+    "electron-wix-msi": "^3.2.0"
+  },
+  "dependencies": {
+    "@electron/remote": "^2.0.8",
+    
+    "electron-packager": "^15.4.0",
+    "electron-updater": "^4.6.5"
+  }
+}
