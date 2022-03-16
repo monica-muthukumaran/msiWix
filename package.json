@@ -21,8 +21,8 @@
         "provider": "github",
         "host": "https://github.com/",
         "owner": "monica-muthukumaran",
-        "repo": "msiWix",
-        "token": "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"
+        "repo": "msiWix"
+        
       }
     ]
   },
