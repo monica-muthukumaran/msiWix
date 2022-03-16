@@ -17,7 +17,7 @@ const msiCreator = new MSICreator({
     exe: 'Final',
     name: 'final',
     manufacturer: 'Infosys',
-    version: '1.0.0',
+    version: '1.0.1',
     appIconPath: path.resolve(__dirname,'icons/icon.ico'),
 
     // Configure installer User Interface
