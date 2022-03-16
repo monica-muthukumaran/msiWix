@@ -1,6 +1,6 @@
 {
   "name": "msi-wix",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "wix msi",
   "main": "main.js",
   "scripts": {
