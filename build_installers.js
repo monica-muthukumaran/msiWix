@@ -17,7 +17,7 @@ const msiCreator = new MSICreator({
     exe: 'Final',
     name: 'final',
     manufacturer: 'Infosys',
-    version: '2.0.0',
+    version: '2.0.1',
     appIconPath: path.resolve(__dirname,'icons/icon.ico'),
 
     // Configure installer User Interface
@@ -28,7 +28,7 @@ const msiCreator = new MSICreator({
     features:{
         autoUpdate:true
     },
-    upgradeCode:"A617EC16-A506-11EC-9EC4-BE7DD0D3F127"
+    upgradeCode:"A617EC16-A506-11EC-9EC4-BE7DD0D3F128"
 });
 (async function(){
     // Step 2: Create a .wxs template file
